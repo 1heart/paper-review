@@ -1,0 +1,28 @@
+# Dependencies
+gems: [jekyll-paginate]
+markdown:            kramdown
+highlighter:         rouge # pygments
+
+# Permalinks
+#
+# Use of `relative_permalinks` ensures post links from the index work properly.
+# permalink:           pretty
+# relative_permalinks: true
+
+# Setup
+title:               Paper review
+tagline:			 Yixin Lin
+description:         'Scientific papers, mostly in machine learning.'
+url:                 http://yixinlin.net
+baseurl:             /paper-review/
+# baseurl: /
+paginate:            1000
+
+# About/contact
+author:
+  name:              Yixin Lin
+  url:               yixinlin.net
+  email:             yixin.lin@duke.edu
+
+# Custom vars
+version:             1.0.0
